@@ -12,20 +12,16 @@ const business = {
   mapsUrl: "https://maps.app.goo.gl/TaSCnhMf97uUhX999",
   catalogueUrl: "",                 // optional override external URL
   catalogues: [
-    { title: "Product Catalogue", category: "General", file: "GLASSENTIALS  PRODUCT CATALOGUE.pdf" },
-    { title: "Mirror Catalogue", category: "Mirrors", file: "MIRROR CATALOGUE.pdf" },
-    { title: "LED Mirror Catalogue", category: "Mirrors", file: "GLASSENTIALS LED MIRROR CATALOGUE (2).pdf.pdf" },
-    { title: "Glass Bricks Catalogue", category: "Glass Blocks & Bricks", file: "_Glassentials Solid Glass Bricks Catalogue .pdf.pdf" },
-    { title: "Granite Solid Glass Bricks", category: "Glass Blocks & Bricks", file: "Glassentials Granite Solid Glass Bricks Catalogue .pdf" },
-    { title: "Glass Bricks", category: "Glass Blocks & Bricks", file: "glassentials Glass Bricks.pdf (1).pdf" },
-    { title: "Glass Bricks Catalogue", category: "Glass Blocks & Bricks", file: "Glassentials Glass Bricks Catalogue .pdf.pdf" },
-    { title: "Glass Block Catalogue", category: "Glass Blocks & Bricks", file: "Glassentials Glass Block.pdf" },
-    { title: "Glass Partition Systems", category: "Partitions & Systems", file: "Glassentials Glass Partition Systems Catalogue.pdf" },
-    { title: "Minimal System 2025", category: "Partitions & Systems", file: "Copy of Glassentials Minimal System 2025  (1).pdf" },
-    { title: "Aluminium Slim Profile Systems", category: "Partitions & Systems", file: "ALLUMINIUM SLIM PROFILE SYSTEMS AND PARTITIONS.pdf" },
-    { title: "Glass Film Catalogue", category: "Films & Fabrics", file: "Glass film.pdf" },
-    { title: "Fabric for Laminated Glass", category: "Films & Fabrics", file: "FABRIC FOR LAMINATED GLASS CATALOGUE f.pdf" },
-    { title: "Fabric Catalogue", category: "Films & Fabrics", file: "FABRIC CATALOGUE.pdf" }
+    { title: "Product Catalogue", category: "General", url: "https://drive.google.com/file/d/1SFr4ecpiO6_2inFzN-ZlHEH-ECRFkDaT/view?usp=drive_link" },
+    { title: "Mirror Catalogue", category: "Mirrors", url: "https://drive.google.com/file/d/1HLEtTL5dX41L0jLJNU8KSWMYsZywnRKZ/view?usp=drive_link" },
+    { title: "LED Mirror Catalogue", category: "Mirrors", url: "https://drive.google.com/file/d/1dCJjFqzANF7D0AngHEVUj7ektKjSH5Go/view?usp=drive_link" },
+    { title: "Decorative Glass Bricks Catalogue", category: "Glass Blocks & Bricks", url: "https://drive.google.com/file/d/1Ff9TDn_ZJcvnvMd5UFx27FxsXbmttwol/view?usp=drive_link" },
+    { title: "Solid Glass Bricks Catalogue", category: "Glass Blocks & Bricks", url: "https://drive.google.com/file/d/1ZdLFEBaG5AyjPrg30qZhi__FpVI-KF-9/view?usp=drive_link" },
+    { title: "Glass Block Catalogue", category: "Glass Blocks & Bricks", url: "https://drive.google.com/file/d/1dwxFxsCJPhrZfKXZM7qdGLGOajDI4TGl/view?usp=drive_link" },
+    { title: "Glass Partition Systems", category: "Partitions & Systems", url: "https://drive.google.com/file/d/16QFUa2xJ3g5iDsp5o0H-U2YCHD3yE3yf/view?usp=drive_link" },
+    { title: "Aluminium Slim Profile Systems", category: "Partitions & Systems", url: "https://drive.google.com/file/d/18As_-k5ekrzbzrUsEG-E_wbsuaDXTHlA/view?usp=drive_link" },
+    { title: "Glass Film Catalogue", category: "Films & Fabrics", url: "https://drive.google.com/file/d/1Fy6nXQVMrLZ9ubAWfH3Ve4GXfOHqavef/view?usp=drive_link" },
+    { title: "Fabric for Laminated Glass", category: "Films & Fabrics", url: "https://drive.google.com/file/d/1AXjz43NMv9-ffJASexqM45LpQ3FHUDU1/view?usp=drive_link" }
   ],
   quoteUrl: "",   // if empty, falls back to WhatsApp with quote message
   contactUrl: "",
