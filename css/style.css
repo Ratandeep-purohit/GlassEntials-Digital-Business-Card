@@ -746,7 +746,29 @@ ul {
   font-family: var(--ff-serif);
   font-size: 1.1rem;
   color: var(--accent);
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer-locations {
+  margin-bottom: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.locations-title {
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  color: var(--ink-mid);
+  margin-bottom: 0.8rem;
+}
+
+.locations-list {
+  font-size: 0.72rem;
+  line-height: 1.7;
+  color: var(--ink-soft);
+  max-width: 480px;
+  margin: 0 auto;
 }
 
 .footer-copy {
